@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework4</title>
+    <body>
+        <script>
+            let TreeLines = prompt('Введите высоту ёлки!', '');
+            let star = "";
+            let str = "";
+            for (i=0; i < TreeLines; i++) {
+
+                for (j = 0; j < TreeLines - i; j++) {
+                    str += " ";
+                }
+                for (k = 0; k < 2 * i + 1; k++) {
+                    star = "*";
+                    str += star;
+                }
+
+            str+='\n';
+            }
+            alert(str); 
+        </script>
+    </body>
+</head>
